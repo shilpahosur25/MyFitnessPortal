@@ -1,0 +1,40 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title>Login Page</title>
+</head>
+<body>
+    <form name="loginForm" method="post">
+        <table width="50%" bgcolor="00ffff" align="center">
+
+            <tr>
+                <td colspan=4><center><font size=8><b> Memeber Login</b></font></center></td>
+            </tr>
+
+            <tr>
+                <td>Username:</td>
+                <td><input type="text" size=40 name="userid"></td>
+            </tr>
+
+            <tr>
+                <td>Password:</td>
+                <td><input type="Password" size=40 name="pwd"></td>
+            </tr>
+
+            <tr>
+                <td><input type="Reset"></td>
+                <td><input type="submit" onclick="return check(this.form)" value="Login"></td>
+            </tr>
+
+        </table>
+    </form>
+ 
+
+</body>
+</html>
